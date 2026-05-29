@@ -102,7 +102,7 @@ export default function Register() {
     <span className="text-xs" style={{ color: "#b0a090" }}>
       built by <span style={{ color: "#7a6e60", fontWeight: 500 }}>@Arun</span>
     </span>
-    <span className="text-xs" style={{ color: "#b0a090" }}>2025</span>
+    <span className="text-xs" style={{ color: "#b0a090" }}>2026</span>
   </div>
 </div>
 

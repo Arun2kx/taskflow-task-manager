@@ -208,4 +208,5 @@ Frontend will be at `http://localhost:5173`.
 
 ---
 
-Built by [Banoth Arun] for internship assignment — June 2025
+Built by [Banoth Arun] for internship assignment — June 2026
+
