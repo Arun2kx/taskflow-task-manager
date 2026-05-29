@@ -7,7 +7,7 @@ const API = axios.create({
 export default API;
 
 // Attach token to every request if it exists
-api.interceptors.request.use((config) => {
+API.interceptors.request.use((config) => {
   const stored = localStorage.getItem("taskflow_user");
   if (stored) {
     const user = JSON.parse(stored);
@@ -16,13 +16,11 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-// Auth endpoints
-export const registerUser = (data) => api.post("/auth/register", data);
-export const loginUser = (data) => api.post("/auth/login", data);
-export const forgotPassword = (data) => api.post("/auth/forgot-password", data);
+export const registerUser = (data) => API.post("/auth/register", data);
+export const loginUser = (data) => API.post("/auth/login", data);
+export const forgotPassword = (data) => API.post("/auth/forgot-password", data);
 
-// Task endpoints
-export const getTasks = () => api.get("/tasks");
-export const createTask = (data) => api.post("/tasks", data);
-export const updateTask = (id, data) => api.put(`/tasks/${id}`, data);
-export const deleteTask = (id) => api.delete(`/tasks/${id}`);
+export const getTasks = () => API.get("/tasks");
+export const createTask = (data) => API.post("/tasks", data);
+export const updateTask = (id, data) => API.put(`/tasks/${id}`, data);
+export const deleteTask = (id) => API.delete(`/tasks/${id}`);
