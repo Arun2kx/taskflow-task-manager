@@ -1,8 +1,10 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://taskflow-task-manager-rtto.onrender.com/api",
+  baseURL: "https://taskflow-task-manager-rlto.onrender.com/api",
 });
+
+export default API;
 
 // Attach token to every request if it exists
 api.interceptors.request.use((config) => {
