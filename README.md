@@ -167,7 +167,7 @@ Frontend will be at `http://localhost:5173`.
 1. Push code to GitHub
 2. Import repo on [vercel.com](https://vercel.com)
 3. Set root directory to `frontend`
-4. Add environment variable: `VITE_API_URL=https://your-backend.onrender.com/api`
+4. Add environment variable: https://taskflow-task-manager-five.vercel.app
 5. Deploy
 
 ### Backend on Render
@@ -176,7 +176,7 @@ Frontend will be at `http://localhost:5173`.
 2. Connect your GitHub repo, set root directory to `backend`
 3. Build command: `npm install`
 4. Start command: `node server.js`
-5. Add environment variables: `MONGO_URI`, `JWT_SECRET`, `CLIENT_URL` (your Vercel URL)
+5. Add environment variables: https://taskflow-task-manager-rlto.onrender.com
 6. Deploy (free tier spins down after inactivity, first request may be slow)
 
 ---
