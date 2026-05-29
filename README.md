@@ -2,8 +2,8 @@
 
 A simple task manager built for an internship assignment. Users can register, log in, and manage tasks across three stages: **To Do**, **In Progress**, and **Done**.
 
-Live demo: [your-app.vercel.app](https://your-app.vercel.app)  
-Backend API: [your-api.onrender.com](https://your-api.onrender.com)
+Live Demo: https://taskflow-task-manager-five.vercel.app
+Backend API: https://taskflow-task-manager-rlto.onrender.com
 
 ---
 
